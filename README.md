@@ -1,9 +1,9 @@
-# tele_uploader
-Telegram bot able to upload large file, also on Dropbox!
+# [UploaditRoBot](https://t.me/uploaditrobot)
+Telegram bot able to Convert Link To File Also Upload It On DropBox
 
 ## Installation
 
-tele_uploader requires [PHP](http://php.net/downloads.php) >= 5.6.0 and [Composer](https://getcomposer.org/) to run.
+Bot requires [PHP](http://php.net/downloads.php) >= 5.6.0 and [Composer](https://getcomposer.org/) to run.
 
 ### Dependencies installation
 
@@ -40,6 +40,8 @@ In the following picture, I'll show you where to find each key.
 
 Now we're ready to execute the bot!
 
+This Code Is ReEdited By [@TheDarkW3b](https://t.me/thedarkw3b)
+
 Let's import the environment variable, with:
 
 ```sh
@@ -65,3 +67,5 @@ These actions can be also used with the command **/upload**, that offer to you t
 ## Credits
 
 A special thanks to [Daniil Gentili](https://daniil.it/) aka [danog](https://github.com/danog) that created [MadelineProto](https://github.com/danog/MadelineProto).
+
+This Code Is ReEdited By [@TheDarkW3b](https://t.me/thedarkw3b)
