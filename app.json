@@ -1,0 +1,65 @@
+{
+
+  "name": "UploaditRoBot",
+
+  "description": "A Simple Upload Bot",
+
+  "keywords": [
+
+    "upload",
+
+    "best",
+
+    "file",
+
+    "uploadit",
+
+    "3"
+  ],
+
+  "repository": "https://github.com/ownerofworld/dropdbdbgdbgu/new/master",
+
+  "env": {
+
+    "ENV": {
+
+      "description": "Setting this to ANYTHING will enable env variables",
+
+      "value": "ANYTHING"    
+    },
+    "BOT_TOKEN": {
+
+      "description": "Your bot token, as a string.",
+
+      "value": ""
+    },
+    "DB_ID": {
+
+      "description": "the unique dropbox app key",
+
+      "value": ""
+    },
+    "DB_SECRET": {
+
+      "description": "the unique dropbox app secret",
+
+      "value": ""
+       },
+
+  "addons": [
+
+    {
+
+      "plan": "heroku-postgresql",
+
+      "options": {
+
+        "version": "9.5"
+
+      }
+
+    }
+
+  ]
+
+}
