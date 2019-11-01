@@ -1,5 +1,5 @@
 {
-  "name": "ilteoood/tele_uploader",
+  "name": "UploadBot",
   "description": "A Telegram uploader bot",
   "type": "project",
   "license": "AGPL-3.0",
@@ -20,7 +20,7 @@
   },
   "authors": [
     {
-      "name": "iLTeoooD"
+      "name": "TheDarkW3b"
     }
   ]
 }
