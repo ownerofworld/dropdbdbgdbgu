@@ -13,9 +13,9 @@ function handleDropboxMessage($update, &$conversations)
     global $dropbox;
     $destination = retrieveDestination($update);
     if (isset($conversations[$destination])) {
-        sendMessage($update, 'Uploading file...');
+        sendMessage($update, 'Uploading file...Please be patient');
         $dropbox->upload(new DropboxFile($conversations[$destination]['downloadDir']), DIRECTORY_SEPARATOR . $conversations[$destination]['fileName'], ['autorename' => true]);
-        sendMessage($update, 'Uploaded!');
+        sendMessage($update, '📤 Uploaded!');
     } else
         sendMessage($update, 'You need to send a file first');
 }
