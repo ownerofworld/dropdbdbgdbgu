@@ -9,12 +9,12 @@ function handleDownloadMessage($update, &$conversations)
 {
     $destination = retrieveDestination($update);
     $message = retrieveFromMessage($update, 'message');
-    sendMessage($update, 'Downloading file...');
+    sendMessage($update, '📤 Downloading file...');
     try {
         $conversations[$destination] = downloadFile($message);
-        sendMessage($update, 'File downloaded!');
+        sendMessage($update, 'Downloaded File From URL...');
     } catch (Exception $e) {
-        sendMessage($update, 'Unable to download file');
+        sendMessage($update, 'Can you check your URL? I\'m unable to detect filename from the URL!!');
     }
 }
 
